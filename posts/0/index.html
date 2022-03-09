@@ -153,7 +153,7 @@
 
 
 
-<h4 id="String"><a href="#String" class="headerlink" title="String"></a>String</h4><p><img src="/.com//Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20220302172013246.png" alt="image-20220302172013246"></p>
+<h4 id="String"><a href="#String" class="headerlink" title="String"></a>String</h4><p><img src="/.com//image-20220302172013246.png"></p>
 <ul>
 <li><p><strong>“” ‘’均是字符串</strong></p>
 </li>
@@ -174,7 +174,7 @@
 <li><p>列表同样可以被索引和截取，列表被截取 后返回一个包含所需元素的新列表。</p>
 </li>
 </ul>
-<p><img src="/.com//../Typora/image-20220302181752916.png" alt="image-20220302181752916"></p>
+<p><img src="/.com//image-20220302181752916.png"></p>
 <figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">y = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="string">"p"</span>]</span><br><span class="line"></span><br><span class="line">x = [<span class="number">1</span>,<span class="number">2</span>,<span class="string">'ege'</span>,<span class="literal">True</span>,y]</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(x)</span><br><span class="line"><span class="comment">#[1, 2, 'ege', True, [1, 2, 3, 'p']]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#从Index = 1元素输出至结束，左闭右开</span></span><br><span class="line"><span class="built_in">print</span>(x[<span class="number">1</span>:])<span class="comment">#[2, 'ege', True, [1, 2, 3, 'p']]</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">len</span>(x))<span class="comment">#5</span></span><br><span class="line"></span><br><span class="line">y.append(<span class="number">2.3</span>)</span><br><span class="line"><span class="built_in">print</span>(y)<span class="comment">#[1, 2, 3, 'p', 2.3]</span></span><br><span class="line"></span><br><span class="line">y.clear()</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">len</span>(y))<span class="comment">#0</span></span><br></pre></td></tr></tbody></table></figure>
 
 
@@ -182,7 +182,7 @@
 <h4 id="Tuple（元组）"><a href="#Tuple（元组）" class="headerlink" title="Tuple（元组）"></a>Tuple（元组）</h4><ul>
 <li>元组内元素不能修改</li>
 <li>元素类型也可以不同</li>
-<li><img src="/.com//../Typora/image-20220302215410899.png" alt="image-20220302215410899"></li>
+<li><img src="/.com//image-20220302215410899.png"></li>
 </ul>
 <figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Tuple是()</span></span><br><span class="line">y1 = (<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="string">"p"</span>)</span><br><span class="line"></span><br><span class="line">x1 = (<span class="number">1</span>,<span class="number">2</span>,<span class="string">'ege'</span>,<span class="literal">True</span>,y)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(x1)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 无法运行，tuple不支持改动元素</span></span><br><span class="line"><span class="comment"># y1[4] = 12.3 </span></span><br><span class="line"><span class="comment"># print(x1)</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(x1[<span class="number">3</span>]) <span class="comment"># 输出元组的第3个元素</span></span><br><span class="line"><span class="built_in">print</span>(x1[<span class="number">1</span>:<span class="number">3</span>]) <span class="comment">#输出1-3个元素</span></span><br><span class="line"><span class="built_in">print</span>(x1[<span class="number">2</span>:])  <span class="comment">#输出2之后所有包括2</span></span><br><span class="line"><span class="built_in">print</span>(x1*<span class="number">2</span>) <span class="comment">#输出两边x1</span></span><br><span class="line"><span class="built_in">print</span>(x1+y1) <span class="comment">#连接元组</span></span><br></pre></td></tr></tbody></table></figure>
 
@@ -198,7 +198,7 @@
 <li><p>打印输出是从小到大按顺序输出，就算类型不同也可输出</p>
 <figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># set</span></span><br><span class="line">x2 = {<span class="number">3</span>,<span class="number">2</span>,<span class="number">5</span>}</span><br><span class="line"><span class="built_in">print</span>(x2) <span class="comment">#按顺序输出</span></span><br><span class="line">x2.add(<span class="number">1</span>)</span><br><span class="line"><span class="built_in">print</span>(x2)</span><br><span class="line"></span><br><span class="line">x4 = {<span class="string">"df"</span>,<span class="string">"grg"</span>,<span class="number">3</span>}</span><br><span class="line"><span class="built_in">print</span>(x4)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">x4 = <span class="built_in">set</span>([<span class="string">'g'</span>,<span class="string">'2'</span>,<span class="string">'t'</span>,<span class="string">'yhf'</span>]) <span class="comment">#{'2', 't', 'yhf', 'g'}</span></span><br><span class="line"><span class="built_in">print</span>(x4)</span><br><span class="line"></span><br><span class="line">x5 = <span class="built_in">set</span>(<span class="string">"dfkg"</span>)</span><br><span class="line"><span class="built_in">print</span>(x5) <span class="comment">#{'k', 'd', 'f', 'g'}</span></span><br></pre></td></tr></tbody></table></figure>
 
-<p><img src="/.com//../Typora/image-20220303192627464.png" alt="image-20220303192627464"></p>
+<p><img src="/.com//image-20220303192627464.png"></p>
 </li>
 </ul>
 <h4 id="Dictionary-字典"><a href="#Dictionary-字典" class="headerlink" title="Dictionary(字典)"></a>Dictionary(字典)</h4><ul>
@@ -212,7 +212,7 @@
 
 
 
-<h4 id="类型转化"><a href="#类型转化" class="headerlink" title="类型转化"></a>类型转化</h4><p><img src="/.com//../Typora/image-20220303194032694.png" alt="image-20220303194032694"></p>
+<h4 id="类型转化"><a href="#类型转化" class="headerlink" title="类型转化"></a>类型转化</h4><p><img src="/.com//image-20220303194032694.png"></p>
 <figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 类型转化</span></span><br><span class="line">a = <span class="number">3</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(a))</span><br><span class="line">b = <span class="built_in">str</span>(a)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>())</span><br></pre></td></tr></tbody></table></figure>
 
 
