@@ -6,7 +6,7 @@
   <link href="http://degndaixingqiu.com/atom.xml" rel="self"/>
   
   <link href="http://degndaixingqiu.com/"/>
-  <updated>2022-03-09T03:34:51.097Z</updated>
+  <updated>2022-03-10T02:14:38.505Z</updated>
   <id>http://degndaixingqiu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://degndaixingqiu.com/posts/d87f7e0c/"/>
+    <id>http://degndaixingqiu.com/posts/d87f7e0c/</id>
+    <published>2022-03-10T02:11:34.000Z</published>
+    <updated>2022-03-10T02:14:38.505Z</updated>
+    
+    <content type="html"><![CDATA[<p>test</p><p><img src="/posts/d87f7e0c/1.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;test&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/posts/d87f7e0c/1.png&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="python" scheme="http://degndaixingqiu.com/categories/python/"/>
+    
+    
+    <category term="python" scheme="http://degndaixingqiu.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>My first blog</title>
