@@ -6,7 +6,7 @@
   <link href="http://degndaixingqiu.com/atom.xml" rel="self"/>
   
   <link href="http://degndaixingqiu.com/"/>
-  <updated>2022-03-10T02:15:00.546Z</updated>
+  <updated>2022-03-10T02:27:40.901Z</updated>
   <id>http://degndaixingqiu.com/</id>
   
   <author>
@@ -21,16 +21,17 @@
     <link href="http://degndaixingqiu.com/posts/d87f7e0c/"/>
     <id>http://degndaixingqiu.com/posts/d87f7e0c/</id>
     <published>2022-03-10T02:11:34.000Z</published>
-    <updated>2022-03-10T02:15:00.546Z</updated>
+    <updated>2022-03-10T02:27:40.901Z</updated>
     
-    <content type="html"><![CDATA[<p>test</p><p><img src="/posts/d87f7e0c/1.png"></p>]]></content>
+    <content type="html"><![CDATA[<p>test</p><p>本地图片上传</p><p>下载，使新建md文件时自动生成同名文件夹</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-asset-image --save</span><br></pre></td></tr></tbody></table></figure><p>开启_config中</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder: true</span><br></pre></td></tr></tbody></table></figure><p>typora中图片设置</p><p><img src="/posts/d87f7e0c/2022-03-10_102502.png"></p><p>插入本地图片，直接将图片放到文件夹中，再在文章中插入文章，选择文件夹中图片</p><p><img src="/posts/d87f7e0c/1.png"></p><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s </span><br><span class="line">hexo d</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;test&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/posts/d87f7e0c/1.png&quot;&gt;&lt;/p&gt;
-</summary>
+&lt;p&gt;本地图片上传&lt;/p&gt;
+&lt;p&gt;下载，使新建md文件时自动生成同名文件夹&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span cl</summary>
       
     
     
